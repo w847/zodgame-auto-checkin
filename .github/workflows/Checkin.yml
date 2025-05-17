@@ -3,7 +3,7 @@ name: ZodGame-Auto-Checkin
 on:
   workflow_dispatch:
   schedule:
-    # # UTC+8 08:00 +
+    # # UTC+8 12:00 +
     - cron: "0 0 * * *"
 jobs:
   checkin:
